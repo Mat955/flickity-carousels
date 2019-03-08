@@ -16,11 +16,11 @@ h1 {
     font-family: 'Lobster', cursive;
     font-size: 20px;
     text-align: center;
-}
 
-.hash-view a {
-    border: 1px dotted #85D79F;
-    text-decoration: none;
+    a {
+        border: 1px dotted #85D79F;
+        text-decoration: none;
+    }
 }
 
 .main-carousel {
@@ -32,11 +32,11 @@ h1 {
     height: 60vh;
     text-align: center;
     min-height: 250px;
-}
 
-.carousel-cell img {
-    max-height: 350px;
-    width: 50%;
+    img {
+        max-height: 350px;
+        width: 50%;
+    }
 }
 
 .progress-bar {
