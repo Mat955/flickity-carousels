@@ -24,25 +24,18 @@
         </p>
     </div>
     <div class="main-carousel">
-        <div class="carousel-cell" id="carousel-cell1"><img src="images/1.png" alt="Italy/Alps"></img>
-            <div class="container">Italy/Alps</div>
-        </div>
-        <div class="carousel-cell" id="carousel-cell2"><img src="images/2.png" alt="China"></img>
-            <div class="container">China</div>
-        </div>
-        <div class="carousel-cell" id="carousel-cell3"><img src="images/3.png" alt="Australia"></img>
-            <div class="container">Australia</div>
-        </div>
-        <div class="carousel-cell" id="carousel-cell4"><img src="images/4.png" alt="Island"></img>
-            <div class="container">Island</div>
-        </div>
-        <div class="carousel-cell" id="carousel-cell5"><img src="images/5.png" alt="New York"></img>
-            <div class="container">New York</div>
-        </div>
+        <script id="template" type="x-tmpl-mustache">
+            <div class="carousel-cell" id="{{id}}"><img src="{{image}}" alt="{{alt}}">
+                            <div class="container">
+                                <h2>{{content}}</h2>
+                        </div>
+                    </div>
+            </script>
     </div>
     <div class="progress-bar"></div><button class="button">restart</button>
     <script src="vendor/flickity.pkgd.js"></script>
     <script src="vendor/hash.js"></script>
+    <script src="vendor/mustache.js"></script>
     <script src="js/script.js"></script>
 </body>
 
