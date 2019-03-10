@@ -6,11 +6,16 @@ var flkty = new Flickity(elem, {
     hash: true,
     pageDots: false,
 });
-restartButton = document.querySelector('.button');
-restartButton.addEventListener('click', function (t) {
+var restart = document.querySelector('.button');
+
+restart.addEventListener('click', function () {
+    var flkty = new Flickity('.main-carousel');
     flkty.select(0);
 });
+
 var progressBar = document.querySelector('.progress-bar');
-flkty.on('scroll', function (t) {
-    t = Math.max(0, Math.min(1, t)), progressBar.style.width = 100 * t + '%'
+
+flkty.on('scroll', function (progress) {
+    progress = Math.max(0, Math.min(1, progress));
+    progressBar.style.width = progress * 100 + '%';
 });
