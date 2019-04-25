@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="vendor/flickity.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+    <title>Flickity - Carousels</title>
+</head>
+
+<body>
+    <h1>I would like to visit this countries in 2019/2020</h1>
+    <div class="hash-view">
+        <p>View:
+            <a href="#carousel-cell1">Cell 1</a>
+            <a href="#carousel-cell2">Cell 2</a>
+            <a href="#carousel-cell3">Cell 3</a>
+            <a href="#carousel-cell4">Cell 4</a>
+            <a href="#carousel-cell5">Cell 5</a>
+        </p>
+    </div>
+    <div class="main-carousel">
+        <div class="carousel-cell" id="carousel-cell1"><img src="images/1.png" alt="Italy/Alps"></img>
+            <div class="container">Italy/Alps</div>
+        </div>
+        <div class="carousel-cell" id="carousel-cell2"><img src="images/2.png" alt="China"></img>
+            <div class="container">China</div>
+        </div>
+        <div class="carousel-cell" id="carousel-cell3"><img src="images/3.png" alt="Australia"></img>
+            <div class="container">Australia</div>
+        </div>
+        <div class="carousel-cell" id="carousel-cell4"><img src="images/4.png" alt="Island"></img>
+            <div class="container">Island</div>
+        </div>
+        <div class="carousel-cell" id="carousel-cell5"><img src="images/5.png" alt="New York"></img>
+            <div class="container">New York</div>
+        </div>
+    </div>
+    <div class="progress-bar"></div><button class="button">restart</button>
+    <script src="vendor/flickity.pkgd.js"></script>
+    <script src="vendor/hash.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

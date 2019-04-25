@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdffed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.hash-view p {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center;
+
+    a {
+        border: 1px dotted #85D79F;
+        text-decoration: none;
+    }
+}
+
+.carousel-cell {
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    min-height: 250px;
+
+    img {
+        border: 2px dotted #FC55CF;
+        max-height: 450px;
+        width: 50%;
+    }
+}
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background: #333;
+}
+
+.button {
+    background-color: #EA7667;
+    color: white;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+.container {
+    color: #ffffff;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    opacity: 0.8;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+    max-width: 1280px;
+}
+
+/*# sourceMappingURL=style.css.map */
