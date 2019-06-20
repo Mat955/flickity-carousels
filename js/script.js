@@ -8,6 +8,8 @@ var content = [{
             lat: 49.255261,
             lng: 19.927172
         }
+
+/*Moustache*/
     },
     {
         id: 'carousel-cell2',
@@ -48,7 +50,7 @@ var content = [{
             lat: 52.229078,
             lng: 21.003228
         }
-    }
+    }, 
 ];
 
 var myTemplate = document.querySelector('#template').innerHTML;
@@ -61,6 +63,7 @@ for (var i = 0; i < content.length; i++) {
 }
 carousel.innerHTML = pastedTamplates;
 
+/*Flickity*/
 var elem = document.querySelector('.main-carousel');
 var flkty = new Flickity(elem, {
     cellAlign: 'left',
